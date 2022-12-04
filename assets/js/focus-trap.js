@@ -2,7 +2,7 @@
  * Limit focus to focusable elements inside `element`
  * @param {HTMLElement} element - DOM element to focus trap inside
  * @return {Function} cleanup function
- */
+ */ 
 function focusTrap(element) {
   const focusableElements = getFocusableElements(element)
   const firstFocusableEl = focusableElements[0]
